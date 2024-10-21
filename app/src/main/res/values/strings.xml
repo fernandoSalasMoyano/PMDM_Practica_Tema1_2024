@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Datos Personales</string>
+    <string name="hint_Nombre">Indicate your name</string>
+    <string name="hint_Apellidos">Indicate your surname</string>
+    <string name="hint_edad">Indicate your age</string>
+    <string name="hombre">Man</string>
+    <string name="mujer">Woman</string>
+    <string name="hijos">Children</string>
+    <string name="botonVaciar">To empty</string>
+    <string name="botonMostrar">Show</string>
+    <string name="campos_Vacios">Yo have left empty:</string>
+    <string name="error_nombre">- Name\n</string>
+    <string name="error_apellidos">- Surnames\n</string>
+    <string name="error_edad">- Age\n</string>
+    <string name="error_estado_civil">- Marital status\n</string>
+    <string name="error_sexo">- Sex\n</string>
+    <string name="error_idioma">You are already in the selected language.</string>
+    <string name="mayor18">Adult</string>
+    <string name="menor18">Minor</string>
+    <string name="si_Hijos">and has children</string>
+    <string name="no_Hijos">and has no children</string>
+
+    <string name="botonEspanol">Spanish</string>
+    <string name="botonFrances">French</string>
+    <string name="botonIngles">English</string>
+
+    <string-array name="estadoCivil">
+        <item>Select a marital status...</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Separated</item>
+        <item>Widowed</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

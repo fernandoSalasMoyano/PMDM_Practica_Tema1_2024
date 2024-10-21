@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_Nombre">Indiquez votre nom</string>
+    <string name="hint_Apellidos">Indiquez votre prénom</string>
+    <string name="hint_edad">Indiquez votre âge</string>
+    <string name="hombre">Homme</string>
+    <string name="mujer">Femme</string>
+    <string name="hijos">Enfants</string>
+    <string name="botonVaciar">Vider</string>
+    <string name="botonMostrar">Montrer</string>
+    <string name="campos_Vacios">Vous avez laissé vide</string>
+    <string name="error_nombre">- Prenom\n</string>
+    <string name="error_apellidos">- Nom\n</string>
+    <string name="error_edad">- Âge\n</string>
+    <string name="error_estado_civil">- État civil\n</string>
+    <string name="error_sexo">- Sexe\n</string>
+    <string name="mayor18">Adulte</string>
+    <string name="menor18">Mineur</string>
+    <string name="si_Hijos">Et a des enfants</string>
+    <string name="no_Hijos">Et n\'a pas d\'enfants</string>
+
+    <string-array name="estadoCivil">
+        <item>Sélectionnez un état civil...</item>
+        <item>Célibataire</item>
+        <item>Marié(e)</item>
+        <item>Séparé(e)</item>
+        <item>Veuf/Veuve</item>
+        <item>Autre</item>
+    </string-array>
+    <string name="botonEspanol">Espagnol</string>
+    <string name="botonFrances">Français</string>
+    <string name="botonIngles">Anglais</string>
+    <string name="error_idioma">Vous êtes déjà dans la langue sélectionnée.</string>
+
+</resources>
