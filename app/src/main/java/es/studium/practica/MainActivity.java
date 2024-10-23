@@ -14,6 +14,7 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Switch;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
             // Si está en horizontal, cargar el layout de landscape
-            setContentView(R.layout.land_activity_main); // Reemplaza con el nombre correcto si tu layout es diferente
+            setContentView(R.layout.land_activity_main);
         } else {
             // Si está en vertical, cargar el layout normal
             setContentView(R.layout.activity_main);
@@ -132,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             else
             {
-                txtTexto.setTextColor(ContextCompat.getColor(this, R.color.black));
+                txtTexto.setText("");
 
                 // Obtener los textos de los recursos
                 String mayor18 = getString(R.string.mayor18);
@@ -147,7 +148,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mensaje += (hijos ? siHijos : noHijos);
 
                 // Mostrar el mensaje final en el TextView
-                txtTexto.setText(mensaje);
+                Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show();
             }
         }
         else if (view.getId() == R.id.buttonVaciar)
